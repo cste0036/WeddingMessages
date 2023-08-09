@@ -1,0 +1,154 @@
+/* rem font sizing. */
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.4rem;
+}
+
+h1 {
+    font-size: 2.4rem;
+}
+
+
+/* Header styling */
+
+.transparent-header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    white-space: nowrap;
+    flex-shrink: 0;
+    font-weight: 600;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.header-title {
+    width: 75%;
+    padding: 5rem;
+    height: auto;
+    font-family: 'Domine', serif;
+    color: #fafafa;
+    font-size: 3.5rem;
+    font-weight: 300;
+}
+
+
+/* Style the navigation links */
+
+.transparent-header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.transparent-header nav ul li {
+    margin-right: 20px;
+}
+
+
+/* This class specifies the overall dimensions and properties of the carousel */
+
+.c-item {
+    height: 1100px;
+    width: 100%;
+}
+
+
+/* This class is used to render the background image */
+
+.c-bg {
+    height: 100%;
+    object-fit: cover;
+    filter: blur(1.5rem) brightness(0.8);
+}
+
+
+/* This class is used together with the carousel caption component to specify it's positioning within the carousel */
+
+.c-message-container {
+    top: 10rem;
+    max-width: 95%;
+}
+
+
+/* This class defines the properties of the message box component of a carousel item */
+
+.c-message {
+    margin: 0 auto;
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0.01rem 0.01rem 1rem #0C1B23;
+}
+
+.c-message-title {
+    width: 75%;
+    padding: 5rem;
+    height: auto;
+    font-family: 'Domine', serif;
+    color: #141D1D;
+    font-size: 3.5rem;
+    font-weight: 300;
+}
+
+.c-message-p {
+    padding: 1.2rem;
+    color: #636665;
+    line-height: 2;
+}
+
+
+/* This class defines the properties of the image component of a carousel item */
+
+.c-img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Style component for the welcome overlay */
+
+
+/*Modal*/
+
+.modal.modal-wide .modal-dialog {
+    width: 90%;
+}
+
+.modal-wide .modal-body {
+    overflow-y: auto;
+}
+
+.welcome-title {
+    font-weight: bold;
+    color: #000000;
+    font-family: 'Domine', serif;
+}
+
+.welcome-close {
+    color: #fff;
+    transform: scale(1.2)
+}
+
+.welcome-content {
+    font-weight: bold;
+    background: linear-gradient(to bottom right, #FFDFBF, #FFB347);
+}
+
+.welcome-body {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    padding-left: 0;
+    font-weight: normal;
+    background: transparent;
+    padding: 5rem;
+}
