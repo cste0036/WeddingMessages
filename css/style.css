@@ -51,15 +51,15 @@ h1 {
 }
 
 .transparent-header nav ul li {
-    margin-right: 20px;
+    /*margin-right: 20px;*/
 }
 
 
 /* This class specifies the overall dimensions and properties of the carousel */
 
 .c-item {
-    height: 1000px;
     width: 100%;
+    height: 135rem;
 }
 
 
@@ -67,6 +67,7 @@ h1 {
 
 .c-bg {
     height: 100%;
+    width: 100%;
     object-fit: cover;
     filter: blur(1.5rem) brightness(0.8);
 }
@@ -123,7 +124,7 @@ h1 {
 /*Modal*/
 
 .modal.modal-wide .modal-dialog {
-    width: 90%;
+    /*width: 90%;*/
 }
 
 .modal-wide .modal-body {
