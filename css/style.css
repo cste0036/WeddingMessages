@@ -58,7 +58,7 @@ h1 {
 /* This class specifies the overall dimensions and properties of the carousel */
 
 .c-item {
-    height: 1100px;
+    height: 1000px;
     width: 100%;
 }
 
@@ -87,6 +87,8 @@ h1 {
     position: relative;
     background-color: #fff;
     box-shadow: 0.01rem 0.01rem 1rem #0C1B23;
+    text-align: start;
+    height: 75%;
 }
 
 .c-message-title {
@@ -111,6 +113,7 @@ h1 {
 .c-img {
     max-width: 100%;
     height: auto;
+    max-height: 75%;
 }
 
 
