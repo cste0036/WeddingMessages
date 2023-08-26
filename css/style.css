@@ -1,5 +1,11 @@
 /* rem font sizing. */
 
+@font-face {
+    font-family: 'Candlescript';
+    font-style: normal;
+    src: local(''), url('../fonts/candlescript.otf') format('otf'),
+}
+
 html {
     font-size: 62.5%;
 }
@@ -134,7 +140,9 @@ h1 {
 .welcome-title {
     font-weight: bold;
     color: #000000;
-    font-family: 'Domine', serif;
+    font-family: 'CandleScript', normal;
+    text-align: center;
+    justify-content: center;
 }
 
 .welcome-close {
@@ -144,7 +152,7 @@ h1 {
 
 .welcome-content {
     font-weight: bold;
-    background: linear-gradient(to bottom right, #FFDFBF, #FFB347);
+    background: linear-gradient(to bottom right, #FFFFFE, #D8FCD8);
 }
 
 .welcome-body {
