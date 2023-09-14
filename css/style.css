@@ -16,6 +16,9 @@
     h1 {
         font-size: 1.8rem;
     }
+    .c-message-title {
+        font-size: 1.8rem;
+    }
 }
 
 
@@ -27,6 +30,9 @@
     }
     h1 {
         font-size: 2.4rem;
+    }
+    .c-message-title {
+        font-size: 3.0rem;
     }
 }
 
@@ -120,7 +126,6 @@ html {
     height: auto;
     font-family: 'Domine', serif;
     color: #141D1D;
-    font-size: 3.0rem;
     font-weight: 300;
 }
 
